@@ -24,13 +24,15 @@ ul li {
   padding: 20px;
   cursor: pointer;
   border-bottom: 1px solid #DBDBD3;
+  display: flex;
+  justify-content: space-between;
 }
 
 ul li:last-child {
   border-bottom: none;
 }
 
-ul li.done {
+.done {
   text-decoration: line-through;
 }
 
